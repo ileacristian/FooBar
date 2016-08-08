@@ -17,5 +17,5 @@ func threeWords(a:String, b:String, c:String) -> String
 
 public func fooBar() -> String
 {
-    return curry(threeWords)("foo")("bar")("baz")
+    return curry(threeWords)("foo")("bar")("baz 2")
 }
